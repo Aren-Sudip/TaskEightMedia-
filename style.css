@@ -138,7 +138,7 @@ header {
 .mainArea__para {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 10px;
   grid-area: paragraph;
   font-size: 15px;
   line-height: 20px;
@@ -147,14 +147,12 @@ header {
   height: 160px;
   margin: 20px;
   text-align: start;
-  margin-bottom: 20px;
-  margin-left: 33px;
+
 }
 
 .mainArea__readMore {
   grid-area: readMore;
-  margin-left: 33px;
-  margin-top: 45px;
+  
 }
 .mainArea--image--container {
   grid-area: pic;
@@ -191,7 +189,9 @@ header {
   .headerBar__searchBar {
     display: none;
   }
-
+.headerBar__contents.addServices{
+  display: flex;
+}
 
   .headerBar--searchBar--medium {
     display: flex;
@@ -268,7 +268,7 @@ header {
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: column; 
-    gap: 10px;
+    gap: 60px;
   }
   .mainArea__rightPart {
     width: 50%;
